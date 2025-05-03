@@ -13,8 +13,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | bugbook",
-    default: "bugbook",
+    template: "%s | University Media", // if some page have it's title, then %s will be replaced with it
+    default: "University Media", // and if page don't have title, then default
   },
   description: "The social media app for powernerds",
 };
@@ -33,4 +33,4 @@ export default function RootLayout({
   );
 }
 
-// test - 123
+// test - 123 
